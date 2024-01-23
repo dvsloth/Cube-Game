@@ -1,0 +1,99 @@
+body { margin: 0; }
+.fpsC {
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+padding: 5px;
+font-size: 12px;
+position: absolute;
+}
+#chat-container {
+position: absolute;
+bottom: 10px;
+left: 10px;
+width: 380px;
+max-height: 200px;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+padding: 10px;
+border-radius: 5px;
+overflow-y: auto;
+word-wrap: break-word;
+scrollbar-width: none;
+scrollbar-color: transparent transparent;
+}
+
+#chat-messages {
+max-height: 150px;
+overflow-y: auto;
+margin-bottom: 10px;
+scrollbar-width: none;
+scrollbar-color: transparent transparent; 
+}
+
+#chat-input {
+width: 95%;
+padding: 5px;
+border: none;
+border-radius: 3px;
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+outline: none;
+resize: none;
+overflow-wrap: break-word;
+}
+
+#chat-container::-webkit-scrollbar {
+width: 0;
+background: transparent;
+}
+
+#chat-messages::-webkit-scrollbar {
+width: 0;
+background: transparent;
+}
+
+.help-message {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.help-header {
+    font-weight: bold;
+    color: #89ff5b;
+}
+
+.help-subtitle {
+    color: #66fffa;
+}
+
+.help-item {
+    margin-top: 5px;
+    color: #ffd447;
+}
+
+.trufal {
+    color: #66fffa;
+}
+
+.gray {
+    color: #545454;
+}
+
+.debug-help-message {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.debug-help-header {
+    font-weight: bold;
+    color: #ff5b5b;
+}
+
+.debug-help-subtitle {
+    color: #66fffa;
+}
+
+.debug-help-item {
+    margin-top: 5px;
+    color: #ffd447;
+}
