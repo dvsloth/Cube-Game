@@ -6,7 +6,7 @@ const { Server } = require('socket.io');
 const io = new Server(server);
 const port = 3521;
 
-app.use(express.static('public'));
+app.use(express.static('main'));
 
 io.on('connection', (socket) => {
   const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
