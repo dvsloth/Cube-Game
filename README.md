@@ -33,7 +33,7 @@ This project implements a multiplayer cube world using the Three.js library. Pla
     node server.js
     ```
 
-4. Open your browser and navigate to http://localhost:<port> to see the cube world in action.
+4. Open your browser and navigate to http://localhost:[port] to see the cube world in action.
 
 ## How to Play
 
